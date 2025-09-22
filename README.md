@@ -10,7 +10,7 @@ The objective of this task was to perform a network reconnaissance scan on a loc
 - Installed Nmap on the system from official website.
 - Identified the local network IP range using subnetmask
 - Performed a TCP SYN scan using the command:
-    eg: nmap -sS 192.168.0.1/24 -oN scan_results.txt
+    eg: nmap -sS 192.168.xx.x/24 -oN scan_results.txt
   
 - Saved the output in text format for documentation.
 - Reviewed the open ports and identified common services running on them.
